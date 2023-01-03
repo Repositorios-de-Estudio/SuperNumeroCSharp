@@ -1,5 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Runtime.CompilerServices;
+﻿using System.Runtime.CompilerServices;
+
+
+
 
 Console.WriteLine("Super Numero");
 
@@ -9,12 +11,6 @@ Console.WriteLine("Super Numero");
  * -> x, si x es inferior a 10.
  * -> x más el supernumero de la suma de los dígitos de x, si x es igual o superior a 10.
  */
-
-
-int superN = 317;
-
-
-
 int superNumero(int nn)
 {
 	if (nn < 10)
@@ -43,7 +39,5 @@ int superNumero(int nn)
 }
 
 
-
-
-
+int superN = 317;
 Console.WriteLine("El supernumero de {0} es {1}", superN, superNumero(superN));
