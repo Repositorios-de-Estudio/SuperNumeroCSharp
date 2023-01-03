@@ -9,10 +9,10 @@ Supernumero El supernumero de x (donde x es un entero mayor o igual a cero) se d
 
 Ejemplo: El supernumero de 317 es
 
-	```
-	Supernumero(317) = 317 + Supernumero(3+1+7) 
-					 = 317 + Supernumero(11)
-					 = 317 + 11 + Supernumero(2)
-					 = 317 + 11 + 2
-					 = 330
-	```
+```
+Supernumero(317) 	= 317 + Supernumero(3+1+7) 
+					= 317 + Supernumero(11)
+					= 317 + 11 + Supernumero(2)
+					= 317 + 11 + 2
+					= 330
+```
